@@ -1,21 +1,28 @@
 {
-  "name": "travelgh",
-  "version": "1.0.0",
-  "description": "Website for tourist to gh",
-  "main": "travelgh.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "Tourist",
-    "Ghana",
-    "West",
-    "Afirica"
-  ],
-  "author": "Bismark Obeng",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^6.0.2"
-  }
+	"name": "travelgh",
+	"version": "1.0.0",
+	"description": "Website for tourist to gh",
+	"main": "travelgh.js",
+	"scripts": {
+		"test": "jest  --timeout 10000",
+		"lint": "eslint travelgh.js lib"
+	},
+	"keywords": [
+		"Tourist",
+		"Ghana",
+		"West",
+		"Afirica"
+	],
+	"author": "Bismark Obeng",
+	"license": "ISC",
+	"dependencies": {
+		"express": "^4.17.1",
+		"express-handlebars": "^6.0.2"
+	},
+	"devDependencies": {
+		"eslint": "^8.4.1",
+		"jest": "^27.4.3",
+		"portfinder": "^1.0.28",
+		"puppeteer": "^12.0.1"
+	}
 }
